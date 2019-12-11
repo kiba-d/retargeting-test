@@ -13,6 +13,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("ch.qos.logback:logback-core:1.2.3")
+    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("org.slf4j:slf4j-api:1.8.0-beta2")
     testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
     testImplementation("org.seleniumhq.selenium:selenium-java:3.141.59")
     testImplementation("org.seleniumhq.selenium:selenium-chrome-driver:3.141.59")
